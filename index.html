@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en" data-boot="splash">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Kaelen Vance — Visual &amp; Digital Systems Designer · VANCEDESIGN</title>
+<meta name="description" content="Kaelen Vance, visual and digital systems designer in Southern California. Twenty-plus years across web architecture, UI/UX, design systems, video, and commercial photography. I design, build, and ship." />
+<meta name="author" content="Kaelen Vance" />
+<meta name="theme-color" content="#080c15" />
+<link rel="canonical" href="https://vancedesign.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://vancedesign.com/" />
+<meta property="og:site_name" content="VANCEDESIGN" />
+<meta property="og:title" content="Kaelen Vance — Visual &amp; Digital Systems Designer" />
+<meta property="og:description" content="Kaelen Vance is a visual and digital systems designer in Southern California — twenty-plus years across web, UI/UX, design systems, video, and commercial photography, designing, building, and shipping production web platforms with an AI-assisted workflow." />
+<meta property="og:image" content="/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="VANCEDESIGN — A Visual &amp; Digital Systems Designer. Kaelen Vance, Southern California, est. 2004." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kaelen Vance — Visual &amp; Digital Systems Designer" />
+<meta name="twitter:description" content="Kaelen Vance is a visual and digital systems designer in Southern California — twenty-plus years across web, UI/UX, design systems, video, and commercial photography." />
+<meta name="twitter:image" content="/og.png" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kaelen Vance",
+  "url": "https://vancedesign.com/",
+  "image": "/og.png",
+  "jobTitle": "Visual & Digital Systems Designer",
+  "description": "Kaelen Vance is a visual and digital systems designer in Southern California — twenty-plus years across web, UI/UX, design systems, video, and commercial photography, designing, building, and shipping production web platforms.",
+  "worksFor": { "@type": "Organization", "name": "Studio Meridian" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "ArtCenter College of Design" },
+  "address": { "@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US" },
+  "knowsAbout": ["Web Architecture", "UI/UX Design", "Design Systems", "Front-end Engineering", "Commercial Photography", "Video Production", "Brand Identity"],
+  "sameAs": [
+    "https://www.linkedin.com/in/kaelenvance",
+    "https://github.com/kaelenvance",
+    "https://www.instagram.com/vancevisuals"
+  ]
+}
+</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/style.css">
+<script type="module" src="/src/main.js"></script>
+</head>
+<body>
+
+<a class="skip" href="#top">SKIP TO CONTENT</a>
+
+<!-- ══ duotone ramps: luminance → two-colour ─────────────────────── -->
+<svg style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); pointer-events:none;" aria-hidden="true"><defs>
+
+  <filter id="duoPortrait" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/>
+    <feComponentTransfer>
+      <feFuncR type="table" tableValues="0.027 0.545"/>
+      <feFuncG type="table" tableValues="0.059 0.647"/>
+      <feFuncB type="table" tableValues="0.129 0.804"/>
+    </feComponentTransfer>
+    <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0.0978 0.3290 0.0332 0 0.54"/>
+  </filter>
+
+  <filter id="duoRestSolid" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/>
+    <feComponentTransfer>
+      <feFuncR type="table" tableValues="0.031 0.478"/>
+      <feFuncG type="table" tableValues="0.063 0.573"/>
+      <feFuncB type="table" tableValues="0.125 0.722"/>
+    </feComponentTransfer>
+  </filter>
+</defs></svg>
+
+<!-- ══ ambient field ════════════════════════════════════════════ -->
+<div class="field" aria-hidden="true">
+  <div class="field__dots"></div>
+  <div class="field__scan"></div>
+  <div class="field__vignette"></div>
+</div>
+
+<canvas id="streaks" aria-hidden="true"></canvas>
+
+<!-- ══ BOOT: SPLASH ═════════════════════════════════════════════ -->
+<section id="splash" class="boot">
+  <div class="splash__plate">
+    <div class="splash__mark">
+      <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+        <circle class="mark__ring" cx="24" cy="24" r="20" />
+        <circle class="mark__ring mark__ring--2" cx="24" cy="24" r="14" />
+        <path class="mark__s mark__s--1" d="M16 18 L24 31.5 L32 18" />
+        <path class="mark__s mark__s--2" d="M19.5 24 H28.5" />
+        <path class="mark__s mark__s--3" d="M21 21 L24 26 L27 21" />
+      </svg>
+      <div class="splash__word">
+        <span class="wordmark">VANCE</span>
+        <span class="wordmark__sub" aria-label="Design"><span aria-hidden="true">D</span><span aria-hidden="true">E</span><span aria-hidden="true">S</span><span aria-hidden="true">I</span><span aria-hidden="true">G</span><span aria-hidden="true">N</span></span>
+      </div>
+    </div>
+
+    <ol class="splash__lines">
+      <li data-line>KAELEN VANCE · PRESENTS</li>
+      <li data-line>EST.2004 [PORTFOLIO / 2026]</li>
+      <li data-line>ENGINEERED IN VANILLA JS <span class="tick">◤</span></li>
+    </ol>
+
+    <button id="enter" class="enter" type="button">
+      <span class="enter__rule"></span>
+      <span class="enter__bars"><i></i><i></i><i></i></span>
+      <span class="enter__label">ENTER VANCEDESIGN</span>
+    </button>
+
+    <p class="splash__legal">COPYRIGHT 2026 · CREATED BY KAELEN VANCE</p>
+  </div>
+</section>
+
+<!-- ══ BOOT: LOADER ═════════════════════════════════════════════ -->
+<section id="loader" class="boot" hidden>
+  <div class="loader__stack">
+    <div class="loader__ring">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="ring__track" cx="60" cy="60" r="52" />
+        <circle class="ring__fill" cx="60" cy="60" r="52" />
+      </svg>
+      <span class="loader__pct" id="pct">00</span>
+    </div>
+    <p class="loader__title">VD.LOADING.SYS</p>
+    <ul class="loader__readout" id="readout" aria-live="off"></ul>
+  </div>
+</section>
+
+<!-- ══ SITE ═════════════════════════════════════════════════════ -->
+<div id="site" class="site" aria-hidden="true">
+
+  <div class="hud" aria-hidden="true">
+    <span class="hud__c hud__c--tl"></span>
+    <span class="hud__c hud__c--tr"></span>
+    <span class="hud__c hud__c--bl"></span>
+    <span class="hud__c hud__c--br"></span>
+    <div class="hud__rail hud__rail--l"><span>VANCEDESIGN <svg class="sl" viewBox="0 0 14 12" aria-hidden="true"><path d="M3.6 0h2.5L2.5 12H0zM10.9 0h2.5L9.8 12H7.3z"/></svg> EST.2004</span></div>
+    <div class="hud__rail hud__rail--r"><span id="hudScroll">SCROLL 000</span></div>
+  </div>
+
+  <header class="nav">
+    <a class="nav__brand" href="#top">
+      <svg class="mark mark--sm" viewBox="0 0 48 48" aria-hidden="true">
+        <circle class="mark__ring" cx="24" cy="24" r="20" />
+        <path class="mark__s mark__s--1" d="M16 18 L24 31.5 L32 18" />
+        <path class="mark__s mark__s--2" d="M19.5 24 H28.5" />
+        <path class="mark__s mark__s--3" d="M21 21 L24 26 L27 21" />
+      </svg>
+      <span>VANCE<i>DESIGN</i><svg class="sl" viewBox="0 0 14 12" aria-hidden="true"><path d="M3.6 0h2.5L2.5 12H0zM10.9 0h2.5L9.8 12H7.3z"/></svg></span>
+    </a>
+    <nav class="nav__links">
+      <a href="#profile" data-nav>PROFILE</a>
+      <a href="#work" data-nav>PROJECTS</a>
+      <a href="#experience" data-nav>EXPERIENCE</a>
+      <a href="#shoots" data-nav>PHOTOS</a>
+      <a href="#stack" data-nav>EQUIPMENT</a>
+      <a href="#contact" data-nav>LET'S CHAT</a>
+    </nav>
+    <button id="sound" class="nav__sound" type="button" aria-pressed="false" aria-label="Ambient sound">
+      <i></i><i></i><i></i><i></i>
+      <span>AMBIENCE.MUTE</span>
+    </button>
+    <button id="menu" class="nav__menu" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Menu">
+      <i></i><i></i><i></i>
+    </button>
+    <span class="nav__prog"><i id="progBar"></i></span>
+  </header>
+
+  <nav id="drawer" class="drawer" hidden>
+    <a href="#profile" data-nav>PROFILE</a>
+    <a href="#work" data-nav>PROJECTS</a>
+    <a href="#experience" data-nav>EXPERIENCE</a>
+    <a href="#shoots" data-nav>PHOTOS</a>
+    <a href="#stack" data-nav>EQUIPMENT</a>
+    <a href="#contact" data-nav>LET'S CHAT</a>
+  </nav>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__panel panel">
+        <div class="panel__tag">NOW.ONLINE</div>
+        <div class="hero__body">
+          <p class="hero__eyebrow">« SYSTEMS.ARCHITECT</p>
+          <h1 class="hero__title">
+            <span class="glitch" data-text="A VISUAL &amp;">A VISUAL &amp;</span>
+            <span class="glitch" data-text="DIGITAL DESIGNER">DIGITAL DESIGNER</span>
+          </h1>
+          <p class="hero__lede">
+            Twenty-two years across digital product design, bespoke web architecture,
+            creative direction, and commercial photography — building and shipping
+            production systems with an AI-assisted workflow. I don't hand off static
+            mockups; I architect, code, test, and deploy them.
+          </p>
+          <div class="hero__meta">
+            <span>VANCEDESIGN</span><em>/</em><span>SOUTHERN CALIFORNIA</span><em>/</em><span>EST. 2004</span>
+          </div>
+        </div>
+        <a class="hero__scroll" href="#profile">
+          <span class="hero__scroll-in"><span class="arrow">↓</span> SCROLL.EXTENDED.CONTENT</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="profile" class="sec">
+      <div class="sec__head">
+        <span class="sec__idx">01</span>
+        <h2 class="sec__title" data-split>PROFILE</h2>
+        <span class="sec__rule"></span>
+      </div>
+      <div class="grid grid--profile">
+        <div class="panel portrait">
+          <div class="panel__tag">SUBJECT.ID</div>
+          <figure class="shot shot--portrait">
+            <img src="/media/portrait.jpg" alt="Kaelen Vance" loading="lazy" decoding="async">
+            <span class="shot__scan"></span>
+          </figure>
+          <div class="portrait__strip">
+            <span>KAELEN VANCE</span>
+            <span>SOUTHERN CALIFORNIA</span>
+          </div>
+        </div>
+        <div class="panel panel--lg">
+          <div class="panel__tag">DOSSIER</div>
+          <div class="panel__body prose">
+            <p>A Visual &amp; Digital Systems Designer based in Southern California, operating
+            at the intersection of digital brand architecture, front-end engineering, interactive
+            design systems, and commercial photography — every touchpoint where a brand meets
+            the physical and digital surface.</p>
+            <p>Currently Principal Designer at Studio Meridian, directing digital product engineering
+            and campaign architectures for fintech and enterprise clients. Previously, two decades
+            of creative direction and production front-end development across Archetype, Lumen Health,
+            Vector Dynamic, Sovereign Media, and Monolith Studios.</p>
+            <p class="prose__note">B.F.A. in Visual Communication &amp; Digital Media — ArtCenter College of Design, 2004</p>
+            <div class="dl-row">
+              <a class="dl" href="/kaelen-vance-resume.pdf" download>
+                <span class="dl__k">RESUME</span>
+                <span class="dl__v">DOWNLOAD ↓</span>
+              </a>
+              <a class="dl" href="#work">
+                <span class="dl__k">PORTFOLIO</span>
+                <span class="dl__v">VIEW WORK ↓</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="work" class="sec hz">
+      <div class="hz__pin">
+        <div class="sec__head">
+          <span class="sec__idx">02</span>
+          <h2 class="sec__title" data-split>PROJECTS</h2>
+          <span class="sec__rule"></span>
+        </div>
+        <p class="sec__lede">Systems, platforms, and interactive campaigns I designed, built, and shipped.</p>
+        <div class="hz__stage">
+          <div class="bands" id="workGrid"></div>
+        </div>
+        <div class="hz__hud">
+          <span aria-hidden="true"><b id="hzIdx">01</b> / <span id="hzN">05</span></span>
+          <span class="hz__bar" aria-hidden="true"><i id="hzBar"></i></span>
+          <a class="hz__skip" href="#experience">SKIP TO EXPERIENCE ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="sec">
+      <div class="sec__head">
+        <span class="sec__idx">03</span>
+        <h2 class="sec__title" data-split>EXPERIENCE</h2>
+        <span class="sec__rule"></span>
+      </div>
+      <p class="sec__lede">Companies, agencies, and ventures I have designed and engineered for.</p>
+      <div class="panel logs" id="expList"></div>
+    </section>
+
+    <!-- PHOTOSHOOTS -->
+    <section id="shoots" class="sec">
+      <div class="sec__head">
+        <span class="sec__idx">04</span>
+        <h2 class="sec__title" data-split>PHOTOSHOOTS</h2>
+        <span class="sec__rule"></span>
+      </div>
+      <p class="sec__lede">Shooting since 2004 — automotive, portrait, editorial, lifestyle, and architectural.</p>
+      <div class="rolls" id="rolls" role="group" aria-label="Shoots"></div>
+      <div class="capture" id="shootMeta"></div>
+      <div class="sheet" id="sheet"></div>
+      <div class="sec__outs">
+        <button class="sec__out sec__out--more" id="more" type="button" hidden></button>
+        <a class="sec__out" id="gallery" href="#" target="_blank" rel="noopener" hidden>CLIENT GALLERY ↗</a>
+        <a class="sec__out" href="https://www.instagram.com/vancevisuals"
+           target="_blank" rel="noopener">INSTAGRAM · @VANCEVISUALS ↗</a>
+      </div>
+    </section>
+
+    <!-- EQUIPMENT -->
+    <section id="stack" class="sec">
+      <div class="sec__head">
+        <span class="sec__idx">05</span>
+        <h2 class="sec__title" data-split>EQUIPMENT</h2>
+        <span class="sec__rule"></span>
+      </div>
+      <div class="grid grid--stack" id="stackGrid"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="sec sec--contact">
+      <div class="sec__head">
+        <span class="sec__idx">06</span>
+        <h2 class="sec__title" data-split>LET'S CHAT</h2>
+        <span class="sec__rule"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot__back" aria-hidden="true">
+      <svg class="mark mark--still" viewBox="0 0 48 48">
+        <circle class="mark__ring" cx="24" cy="24" r="20" />
+        <circle class="mark__ring mark__ring--2" cx="24" cy="24" r="14" />
+        <path class="mark__s" d="M16 18 L24 31.5 L32 18" />
+        <path class="mark__s" d="M19.5 24 H28.5" />
+        <path class="mark__s" d="M21 21 L24 26 L27 21" />
+      </svg>
+      <span>VANCEDESIGN</span><svg class="sl" viewBox="0 0 14 12" aria-hidden="true"><path d="M3.6 0h2.5L2.5 12H0zM10.9 0h2.5L9.8 12H7.3z"/></svg>
+    </div>
+    <div class="foot__card panel">
+      <div class="foot__lead">
+        <p class="foot__k">VANCEDESIGN <svg class="sl" viewBox="0 0 14 12" aria-hidden="true"><path d="M3.6 0h2.5L2.5 12H0zM10.9 0h2.5L9.8 12H7.3z"/></svg> EST.2004</p>
+        <h3 class="foot__title">LET'S BUILD SOMETHING.</h3>
+        <p class="foot__sub">Visual &amp; Digital Systems Designer<br />Southern California</p>
+        <button class="foot__cta" type="button" id="chatOpen">LET'S CHAT <svg class="arrow" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></button>
+      </div>
+      <div class="foot__cols">
+      <div class="foot__col">
+        <button class="foot__h" type="button" aria-expanded="false">SITE<i aria-hidden="true"></i></button>
+        <ul class="foot__list">
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#work">PROJECTS</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#shoots">PHOTOS</a></li>
+          <li><a href="#stack">EQUIPMENT</a></li>
+          <li><a href="#contact">LET'S CHAT</a></li>
+        </ul>
+      </div>
+      <div class="foot__col">
+        <button class="foot__h" type="button" aria-expanded="false">CONNECT<i aria-hidden="true"></i></button>
+        <ul class="foot__list">
+          <li><a href="https://www.linkedin.com/in/kaelenvance" target="_blank" rel="noopener">LINKEDIN</a></li>
+          <li><a href="https://github.com/kaelenvance" target="_blank" rel="noopener">GITHUB</a></li>
+          <li><a href="https://www.instagram.com/vancevisuals" target="_blank" rel="noopener">INSTAGRAM</a></li>
+          <li><a href="mailto:kaelenvance@gmail.com">EMAIL</a></li>
+        </ul>
+      </div>
+      <div class="foot__col">
+        <button class="foot__h" type="button" aria-expanded="false">FILES<i aria-hidden="true"></i></button>
+        <ul class="foot__list">
+          <li><a href="/kaelen-vance-resume.pdf" download>RESUME · PDF</a></li>
+          <li><a href="https://vancedesign.com" target="_blank" rel="noopener">VANCEDESIGN.COM</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="foot__chat" id="chat" inert aria-hidden="true">
+        <div class="foot__chat-in">
+          <button class="foot__close" type="button" id="chatClose"><svg class="arrow arrow--back" viewBox="0 0 24 12" aria-hidden="true"><path d="M24 6H4M9 1L4 6l5 5"/></svg> BACK</button>
+          <p class="contact__lede">HELP ME, HELP YOU.</p>
+          <p class="contact__note">Now that you know more about my work, let me know what you're engineering and how we can collaborate.</p>
+          <form class="cform" id="contactForm" novalidate>
+            <div class="cform__box">
+              <input class="cform__in" type="email" name="email" placeholder="ENTER YOUR EMAIL" required autocomplete="email" aria-label="Your email" />
+              <textarea class="cform__in cform__msg" name="message" rows="3" placeholder="WHAT ARE YOU WORKING ON?" aria-label="Message"></textarea>
+              <input class="cform__hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <button class="cform__go" type="submit" aria-label="Send"><svg class="arrow" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></button>
+            </div>
+            <p class="cform__foot">
+              <span class="cform__status" id="contactStatus" role="status" aria-live="polite"></span>
+              <span class="cform__alt">OR WRITE DIRECTLY TO <a href="mailto:kaelenvance@gmail.com">KAELENVANCE@GMAIL.COM</a></span>
+            </p>
+          </form>
+        </div>
+      </div>
+      <div class="foot__base">
+        <span class="foot__status"><i></i>STATUS: ONLINE</span>
+        <span>© 2026 KAELEN VANCE</span>
+        <span class="foot__spacer"></span>
+        <span id="clock">--:--:--</span>
+      </div>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
