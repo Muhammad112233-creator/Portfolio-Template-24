@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 490" width="1280" height="490" role="img">
+  <!-- ══════════════════════════════════════════════════════════
+       VIDEO TESTIMONIAL SERVICE — system flow.
+       Every step is a hover target: pointing at one opens a preview of
+       that screen, drawn in the same document so there is nothing extra
+       to fetch. The previews are likenesses — every name, transcript and
+       thumbnail is ghost geometry, so they read as real screens without
+       handing anyone something to build from.
+       ══════════════════════════════════════════════════════════════ -->
+  <defs>
+    <style>.t{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}.g{fill:#242f47}.gg{fill:#18202f}</style>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#141d2f" stroke-width="1"/>
+    </pattern>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#47597f"/>
+    </marker>
+    <linearGradient id="pvv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16202f"/><stop offset="1" stop-color="#0d1524"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="490" fill="#0a0f1a"/>
+  <rect width="1280" height="490" fill="url(#g)" opacity=".55"/>
+  <text x="60" y="74" class="t" font-size="12" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".18em">INTAKE & TELEMETRY FLOW</text>
+  <text x="1220" y="74" class="t" font-size="12" fill="#33425f" font-weight="400" text-anchor="end" letter-spacing=".18em">SECURE CLIENT ENGINE / V2.4</text>
+  <g class="nd" data-step="record">
+    <rect x="108" y="150" width="176" height="96" rx="3" fill="#0e1626" stroke="#47597f" stroke-width="1.2" />
+    <text x="196.0" y="190" class="t" font-size="13" fill="#cddff2" font-weight="500" text-anchor="middle" letter-spacing=".18em">RECORD</text>
+    <text x="196.0" y="211" class="t" font-size="10" fill="#8497b8" font-weight="400" text-anchor="middle" letter-spacing=".18em">on the member's phone</text>
+    <rect class="nd__hit" x="100" y="142" width="192" height="112" fill="transparent"/>
+  </g>
+  <line x1="291.0" y1="198" x2="323.0" y2="198" stroke="#33425f" stroke-width="1.2" marker-end="url(#a)"/>
+  <g class="nd" data-step="upload">
+    <rect x="330" y="150" width="176" height="96" rx="3" fill="#0e1626" stroke="#47597f" stroke-width="1.2" />
+    <text x="418.0" y="190" class="t" font-size="13" fill="#cddff2" font-weight="500" text-anchor="middle" letter-spacing=".18em">UPLOAD</text>
+    <text x="418.0" y="211" class="t" font-size="10" fill="#8497b8" font-weight="400" text-anchor="middle" letter-spacing=".18em">direct to storage</text>
+    <rect class="nd__hit" x="322" y="142" width="192" height="112" fill="transparent"/>
+  </g>
+  <line x1="513.0" y1="198" x2="545.0" y2="198" stroke="#33425f" stroke-width="1.2" marker-end="url(#a)"/>
+  <g class="nd" data-step="review">
+    <rect x="552" y="150" width="176" height="96" rx="3" fill="#0e1626" stroke="#47597f" stroke-width="1.2" />
+    <text x="640.0" y="190" class="t" font-size="13" fill="#cddff2" font-weight="500" text-anchor="middle" letter-spacing=".18em">REVIEW</text>
+    <text x="640.0" y="211" class="t" font-size="10" fill="#8497b8" font-weight="400" text-anchor="middle" letter-spacing=".18em">internal queue</text>
+    <rect class="nd__hit" x="544" y="142" width="192" height="112" fill="transparent"/>
+  </g>
+  <line x1="735.0" y1="198" x2="767.0" y2="198" stroke="#33425f" stroke-width="1.2" marker-end="url(#a)"/>
+  <g class="nd" data-step="approve">
+    <rect x="774" y="150" width="176" height="96" rx="3" fill="#0e1626" stroke="#47597f" stroke-width="1.2" />
+    <text x="862.0" y="190" class="t" font-size="13" fill="#cddff2" font-weight="500" text-anchor="middle" letter-spacing=".18em">APPROVE</text>
+    <text x="862.0" y="211" class="t" font-size="10" fill="#8497b8" font-weight="400" text-anchor="middle" letter-spacing=".18em">or send back</text>
+    <rect class="nd__hit" x="766" y="142" width="192" height="112" fill="transparent"/>
+  </g>
+  <line x1="957.0" y1="198" x2="989.0" y2="198" stroke="#33425f" stroke-width="1.2" marker-end="url(#a)"/>
+  <g class="nd" data-step="publish">
+    <rect x="996" y="150" width="176" height="96" rx="3" fill="#0e1626" stroke="#47597f" stroke-width="1.2" />
+    <text x="1084.0" y="190" class="t" font-size="13" fill="#cddff2" font-weight="500" text-anchor="middle" letter-spacing=".18em">PUBLISH</text>
+    <text x="1084.0" y="211" class="t" font-size="10" fill="#8497b8" font-weight="400" text-anchor="middle" letter-spacing=".18em">to social channels</text>
+    <rect class="nd__hit" x="988" y="142" width="192" height="112" fill="transparent"/>
+  </g>
+  <text x="60" y="360" class="t" font-size="12" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".18em">NOTIFY</text>
+  <line x1="418" y1="246" x2="418" y2="330" stroke="#33425f" stroke-width="1" stroke-dasharray="3 5"/>
+  <rect x="384" y="330" width="68" height="42" rx="2" fill="#0e1626" stroke="#33425f" stroke-width="1.1" />
+  <path d="M384 330 L418 353 L452 330" fill="none" stroke="#33425f" stroke-width="1.1"/>
+  <line x1="640" y1="246" x2="640" y2="330" stroke="#33425f" stroke-width="1" stroke-dasharray="3 5"/>
+  <rect x="606" y="330" width="68" height="42" rx="2" fill="#0e1626" stroke="#33425f" stroke-width="1.1" />
+  <path d="M606 330 L640 353 L674 330" fill="none" stroke="#33425f" stroke-width="1.1"/>
+  <line x1="862" y1="246" x2="862" y2="330" stroke="#33425f" stroke-width="1" stroke-dasharray="3 5"/>
+  <rect x="828" y="330" width="68" height="42" rx="2" fill="#0e1626" stroke="#33425f" stroke-width="1.1" />
+  <path d="M828 330 L862 353 L896 330" fill="none" stroke="#33425f" stroke-width="1.1"/>
+  <line x1="60" y1="432" x2="1220" y2="432" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="60" y1="432" x2="60" y2="439" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="157" y1="432" x2="157" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="253" y1="432" x2="253" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="350" y1="432" x2="350" y2="439" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="447" y1="432" x2="447" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="543" y1="432" x2="543" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="640" y1="432" x2="640" y2="439" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="737" y1="432" x2="737" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="833" y1="432" x2="833" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="930" y1="432" x2="930" y2="439" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="1027" y1="432" x2="1027" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="1123" y1="432" x2="1123" y2="436" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <line x1="1220" y1="432" x2="1220" y2="439" stroke="#33425f" stroke-width="1" opacity=".6"/>
+  <g class="pv" data-pv="record" style="transform-origin:196.0px 262px">
+    <line x1="196.0" y1="246" x2="196.0" y2="262" stroke="#5fe0ff" stroke-width="1.2" opacity=".55"/>
+    <g transform="translate(36 262)">
+      <rect x="0" y="0" width="320" height="200.0" rx="3" fill="#0c121d" stroke="#2b3a57" stroke-width="1.2" />
+      <rect x="0" y="0" width="320" height="22" rx="0" fill="#111a29" />
+      <line x1="0" y1="22" x2="320" y2="22" stroke="#2b3a57" stroke-width="1"/>
+      <text x="12" y="15" class="t" font-size="8" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".16em">MEMBER · CAPTURE</text>
+      <rect x="14" y="32" width="96" height="17" rx="8.5" fill="#0a0f18" stroke="#243149" stroke-width="1" />
+      <path d="M24 40.5 h5 M33 40.5 h5" stroke="#5fe0ff" stroke-width="1.2" stroke-linecap="round"/>
+      <rect x="44" y="37" width="54" height="6" rx="3.0" class="gg"/>
+      <rect x="118" y="30" width="84" height="140" rx="10" fill="#05080e" stroke="#2b3a57" stroke-width="1.1" />
+      <rect x="148" y="34" width="24" height="4" rx="2" fill="#243149" />
+      <rect x="122" y="44" width="76" height="104" rx="0" fill="#101a2a" />
+      <circle cx="160" cy="82" r="13" fill="#1e2c42"/>
+      <path d="M139 148 q21 -30 42 0 z" fill="#1e2c42"/>
+      <rect x="140" y="50" width="40" height="11" rx="5" fill="#050810" opacity=".85"/>
+      <circle cx="149" cy="55.5" r="2.6" fill="#ff5a5a"/>
+      <text x="157" y="58.5" class="t" font-size="6.5" fill="#e3ecf8" font-weight="400" text-anchor="start" letter-spacing=".08em">0:12</text>
+      <circle cx="160" cy="160" r="9.5" fill="none" stroke="#ff5a5a" stroke-width="1.3"/>
+      <circle cx="160" cy="160" r="5" fill="#ff5a5a"/>
+      <text x="160" y="182" class="t" font-size="7" fill="#54648a" font-weight="400" text-anchor="middle" letter-spacing=".16em">ONE LINK · NO APP</text>
+          <rect class="pv__frame" x="0" y="0" width="320" height="200.0" rx="3" fill="none"/>
+    </g>
+  </g>
+  <g class="pv" data-pv="upload" style="transform-origin:418.0px 262px">
+    <line x1="418.0" y1="246" x2="418.0" y2="262" stroke="#5fe0ff" stroke-width="1.2" opacity=".55"/>
+    <g transform="translate(258 262)">
+      <rect x="0" y="0" width="320" height="186" rx="3" fill="#0c121d" stroke="#2b3a57" stroke-width="1.2" />
+      <rect x="0" y="0" width="320" height="22" rx="0" fill="#111a29" />
+      <line x1="0" y1="22" x2="320" y2="22" stroke="#2b3a57" stroke-width="1"/>
+      <text x="12" y="15" class="t" font-size="8" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".16em">TRANSFER</text>
+      <rect x="24" y="40" width="272" height="52" rx="3" fill="#111826" stroke="#212b3d" stroke-width="1" />
+      <rect x="34" y="50" width="44" height="32" rx="2" fill="#080d15" stroke="#212b3d" stroke-width="1" />
+      <rect x="48" y="50" width="16" height="32" rx="0" fill="#101827" />
+      <path d="M52 61 L61 66 L52 71 z" fill="#3a4763"/>
+      <rect x="90" y="54" width="118" height="8" rx="4.0" class="g"/>
+      <rect x="90" y="70" width="74" height="6" rx="3.0" class="gg"/>
+      <text x="286" y="60" class="t" font-size="7" fill="#54648a" font-weight="400" text-anchor="end" letter-spacing=".1em">48.2 MB</text>
+      <text x="24" y="116" class="t" font-size="8" fill="#5fe0ff" font-weight="400" text-anchor="start" letter-spacing=".18em">UPLOADING</text>
+      <text x="296" y="116" class="t" font-size="8" fill="#5fe0ff" font-weight="400" text-anchor="end" letter-spacing=".1em">68%</text>
+      <rect x="24" y="124" width="272" height="5" rx="2.5" fill="#1a2231" />
+      <rect x="24" y="124" width="185" height="5" rx="2.5" fill="#5fe0ff" opacity=".8"/>
+      <rect x="24" y="146" width="30" height="24" rx="2" fill="#0a0f18" stroke="#243149" stroke-width="1" />
+      <path d="M32 158 h14 M41 153 l5 5 l-5 5" fill="none" stroke="#5fe0ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+      <rect x="64" y="152" width="96" height="7" rx="3.5" class="g"/>
+      <text x="64" y="172" class="t" font-size="7" fill="#54648a" font-weight="400" text-anchor="start" letter-spacing=".16em">DIRECT TO STORAGE</text>
+
+          <rect class="pv__frame" x="0" y="0" width="320" height="186" rx="3" fill="none"/>
+    </g>
+  </g>
+  <g class="pv" data-pv="review" style="transform-origin:640.0px 262px">
+    <line x1="640.0" y1="246" x2="640.0" y2="262" stroke="#5fe0ff" stroke-width="1.2" opacity=".55"/>
+    <g transform="translate(480 262)">
+      <rect x="0" y="0" width="320" height="186" rx="3" fill="#0c121d" stroke="#2b3a57" stroke-width="1.2" />
+      <rect x="0" y="0" width="320" height="22" rx="0" fill="#111a29" />
+      <line x1="0" y1="22" x2="320" y2="22" stroke="#2b3a57" stroke-width="1"/>
+      <text x="12" y="15" class="t" font-size="8" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".16em">INTERNAL QUEUE</text>
+      <rect x="268" y="5" width="40" height="13" rx="6.5" fill="#5fe0ff" opacity=".12"/>
+      <text x="288" y="15" class="t" font-size="8" fill="#5fe0ff" font-weight="400" text-anchor="middle" letter-spacing=".1em">12</text>
+      <rect x="16" y="34" width="288" height="42" rx="2" fill="#131c2c" stroke="#5fe0ff" stroke-width="1" stroke-opacity=".5"/>
+      <rect x="24" y="40" width="44" height="30" rx="2" fill="#080d15" stroke="#212b3d" stroke-width="1" />
+      <rect x="37" y="40" width="18" height="30" rx="0" fill="#101827" />
+      <path d="M41 50 L50 55 L41 60 z" fill="#5fe0ff" opacity=".7"/>
+      <rect x="78" y="44" width="92" height="7" rx="3.5" class="g"/>
+      <rect x="78" y="58" width="118" height="5" rx="2.5" class="gg"/>
+      <rect x="222" y="47" width="74" height="17" rx="8.5" fill="#fbbf24" stroke="#fbbf24" stroke-width="1" fill-opacity=".1" stroke-opacity=".45"/>
+      <text x="259" y="59" class="t" font-size="6.5" fill="#fbbf24" font-weight="400" text-anchor="middle" letter-spacing=".12em">PENDING</text>
+      <rect x="16" y="82" width="288" height="42" rx="2" fill="#111826" stroke="#1d2637" stroke-width="1" />
+      <rect x="24" y="88" width="44" height="30" rx="2" fill="#080d15" stroke="#212b3d" stroke-width="1" />
+      <rect x="37" y="88" width="18" height="30" rx="0" fill="#0e1523" />
+      <path d="M41 98 L50 103 L41 108 z" fill="#3a4763" opacity=".7"/>
+      <rect x="78" y="92" width="92" height="7" rx="3.5" class="g"/>
+      <rect x="78" y="106" width="118" height="5" rx="2.5" class="gg"/>
+      <rect x="222" y="95" width="74" height="17" rx="8.5" fill="#4ade80" stroke="#4ade80" stroke-width="1" fill-opacity=".1" stroke-opacity=".45"/>
+      <text x="259" y="107" class="t" font-size="6.5" fill="#4ade80" font-weight="400" text-anchor="middle" letter-spacing=".12em">APPROVED</text>
+      <rect x="16" y="130" width="288" height="42" rx="2" fill="#111826" stroke="#1d2637" stroke-width="1" />
+      <rect x="24" y="136" width="44" height="30" rx="2" fill="#080d15" stroke="#212b3d" stroke-width="1" />
+      <rect x="37" y="136" width="18" height="30" rx="0" fill="#0e1523" />
+      <path d="M41 146 L50 151 L41 156 z" fill="#3a4763" opacity=".7"/>
+      <rect x="78" y="140" width="92" height="7" rx="3.5" class="g"/>
+      <rect x="78" y="154" width="118" height="5" rx="2.5" class="gg"/>
+      <rect x="222" y="143" width="74" height="17" rx="8.5" fill="#fbbf24" stroke="#fbbf24" stroke-width="1" fill-opacity=".1" stroke-opacity=".45"/>
+      <text x="259" y="155" class="t" font-size="6.5" fill="#fbbf24" font-weight="400" text-anchor="middle" letter-spacing=".12em">PENDING</text>
+          <rect class="pv__frame" x="0" y="0" width="320" height="186" rx="3" fill="none"/>
+    </g>
+  </g>
+  <g class="pv" data-pv="approve" style="transform-origin:862.0px 262px">
+    <line x1="862.0" y1="246" x2="862.0" y2="262" stroke="#5fe0ff" stroke-width="1.2" opacity=".55"/>
+    <g transform="translate(702 262)">
+      <rect x="0" y="0" width="320" height="186" rx="3" fill="#0c121d" stroke="#2b3a57" stroke-width="1.2" />
+      <rect x="0" y="0" width="320" height="22" rx="0" fill="#111a29" />
+      <line x1="0" y1="22" x2="320" y2="22" stroke="#2b3a57" stroke-width="1"/>
+      <text x="12" y="15" class="t" font-size="8" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".16em">DECISION</text>
+      <rect x="16" y="32" width="140" height="104" rx="2" fill="#03060b" stroke="#212b3d" stroke-width="1" />
+      <rect x="68" y="33" width="36" height="102" rx="0" fill="url(#pvv)" />
+      <circle cx="86" cy="84" r="14" fill="none" stroke="#5fe0ff" stroke-width="1.2" opacity=".6"/>
+      <path d="M82 78 L93 84 L82 90 z" fill="#5fe0ff" opacity=".6"/>
+      <rect x="168" y="36" width="104" height="8" rx="4.0" class="g"/>
+      <rect x="168" y="52" width="126" height="6" rx="3.0" class="gg"/>
+      <rect x="168" y="64" width="84" height="6" rx="3.0" class="gg"/>
+      <rect x="168" y="84" width="136" height="26" rx="3" fill="#4ade80" stroke="#4ade80" stroke-width="1" fill-opacity=".1" stroke-opacity=".5"/>
+      <path d="M182 97 L186 101 L194 92" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="248" y="100" class="t" font-size="8" fill="#4ade80" font-weight="400" text-anchor="middle" letter-spacing=".14em">APPROVE</text>
+      <rect x="168" y="116" width="136" height="26" rx="3" fill="none" stroke="#2b3550" stroke-width="1" />
+      <text x="236" y="132" class="t" font-size="8" fill="#8497b8" font-weight="400" text-anchor="middle" letter-spacing=".14em">SEND BACK</text>
+      <rect x="16" y="148" width="288" height="24" rx="3" fill="#0a0f18" stroke="#1d2637" stroke-width="1" />
+      <rect x="28" y="157" width="132" height="6" rx="3.0" class="gg"/>
+
+          <rect class="pv__frame" x="0" y="0" width="320" height="186" rx="3" fill="none"/>
+    </g>
+  </g>
+  <g class="pv" data-pv="publish" style="transform-origin:1084.0px 262px">
+    <line x1="1084.0" y1="246" x2="1084.0" y2="262" stroke="#5fe0ff" stroke-width="1.2" opacity=".55"/>
+    <g transform="translate(924 262)">
+      <rect x="0" y="0" width="320" height="186" rx="3" fill="#0c121d" stroke="#2b3a57" stroke-width="1.2" />
+      <rect x="0" y="0" width="320" height="22" rx="0" fill="#111a29" />
+      <line x1="0" y1="22" x2="320" y2="22" stroke="#2b3a57" stroke-width="1"/>
+      <text x="12" y="15" class="t" font-size="8" fill="#8497b8" font-weight="400" text-anchor="start" letter-spacing=".16em">DISTRIBUTION</text>
+      <rect x="16" y="32" width="80" height="112" rx="2" fill="#111826" stroke="#212b3d" stroke-width="1" />
+      <circle cx="31" cy="46" r="6.5" fill="#16203a" stroke="#26314a"/>
+      <rect x="43" y="43" width="38" height="6" rx="3.0" class="gg"/>
+      <rect x="24" y="60" width="64" height="62" rx="1.5" fill="#05080e" stroke="#212b3d" stroke-width="1" />
+      <rect x="46" y="61" width="20" height="60" rx="0" fill="url(#pvv)" />
+      <rect x="24" y="130" width="46" height="5" rx="2.5" class="gg"/>
+      <circle cx="80" cy="70" r="7" fill="#4ade80" fill-opacity=".14"/>
+      <path d="M77 70 L79 72 L83 67.5" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="120" y="32" width="80" height="112" rx="2" fill="#111826" stroke="#212b3d" stroke-width="1" />
+      <circle cx="135" cy="46" r="6.5" fill="#16203a" stroke="#26314a"/>
+      <rect x="147" y="43" width="38" height="6" rx="3.0" class="gg"/>
+      <rect x="128" y="60" width="64" height="62" rx="1.5" fill="#05080e" stroke="#212b3d" stroke-width="1" />
+      <rect x="150" y="61" width="20" height="60" rx="0" fill="url(#pvv)" />
+      <rect x="128" y="130" width="46" height="5" rx="2.5" class="gg"/>
+      <circle cx="184" cy="70" r="7" fill="#4ade80" fill-opacity=".14"/>
+      <path d="M181 70 L183 72 L187 67.5" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="224" y="32" width="80" height="112" rx="2" fill="#111826" stroke="#212b3d" stroke-width="1" />
+      <circle cx="239" cy="46" r="6.5" fill="#16203a" stroke="#26314a"/>
+      <rect x="251" y="43" width="38" height="6" rx="3.0" class="gg"/>
+      <rect x="232" y="60" width="64" height="62" rx="1.5" fill="#05080e" stroke="#212b3d" stroke-width="1" />
+      <rect x="254" y="61" width="20" height="60" rx="0" fill="url(#pvv)" />
+      <rect x="232" y="130" width="46" height="5" rx="2.5" class="gg"/>
+      <path d="M126 162 L130 166 L138 157" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="150" y="166" class="t" font-size="8" fill="#4ade80" font-weight="400" text-anchor="start" letter-spacing=".16em">PUBLISHED</text>
+          <rect class="pv__frame" x="0" y="0" width="320" height="186" rx="3" fill="none"/>
+    </g>
+  </g>
+</svg>
